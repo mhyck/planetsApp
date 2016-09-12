@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<head>
+	<!-- meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- google fonts -->
+
+	<!-- font awesome -->
+	<script src="https://use.fontawesome.com/33adcd4c82.js"></script>
+	<!-- favorite icon -->
+	
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<!-- bootstrap css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- title -->
+	<title>Planets</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6 col-xs-offset-3">
+				<form>
+					<div class="form-group">
+						<h1>Enter a Planet in our solar system</h1>
+					</div>
+					<div class="form-group">
+						<input id="name" class="form-control">
+					</div>
+					<div class="form-group">
+						<button type="button" onclick="getInfo()" class="btn btn-primary btn-lg">Check it out!</button>
+					</div>
+				</form>
+				<div>
+					<h1 id="planetName"></h1>
+					<img id="icon" class="img-responsive" src  >
+				</div>
+				<div id="planetInfo"></div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+
+
+
+	<!-- bootstrap and javascript -->
+	<script src="js/bootstrap.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
